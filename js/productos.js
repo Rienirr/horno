@@ -1,5 +1,5 @@
 'use strict';
-import { app } from "./js/fireBase.js";
+import { app } from "./fireBase.js";
 import * as u from "./utils.js";
 import { query, getFirestore, collection, where, onSnapshot } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
 const db = getFirestore(app);

@@ -1,6 +1,6 @@
 'use strict';
 let d = document;
-import { app } from "../../js/fireBase.js";
+import { app } from "./fireBase.js";
 import { getFirestore, addDoc, collection } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
 
 //Para poder hacer consultas a la BBDD.
