@@ -1,0 +1,233 @@
+/*Falta meter el normalizer*/
+
+/* * {
+    outline: 1px solid red;
+} */
+
+/*//////////////////////////////////////////COMUNES//////////////////////////////////////////*/
+body {
+  padding: 15px;
+}
+#nombre {
+  display: inline-block;
+  align-self: center;
+  margin: auto;
+  font-size: 35px;
+  font-family: "Yellowtail", cursive;
+  color: #d9a23d;
+}
+#logo {
+  width: 105px;
+  align-self: flex-start;
+}
+#comunicacion_usuario {
+  text-align: center;
+  width: 500px;
+  background: #000;
+  border-radius: 4px;
+  margin-left: 35%;
+  font-family: "arial-black";
+  font-size: 14px;
+  color: #fff;
+  padding: 8px 12px;
+}
+#productosCategorias,
+#productos {
+  /* Para que no intefiera el borde con nuestras funciones*/
+  border: none;
+}
+#nombre:hover,
+#logo:hover {
+  cursor: pointer;
+}
+.hidden {
+  display: none !important;
+}
+section {
+  border: 5px solid burlywood;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+#contenedorMensaje {
+  height: 80px;
+}
+
+#contenedorMensaje * {
+  font-size: 1.1em;
+}
+#contenedorMensajeLogin,
+#contenedorMensajeLogin2 {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #000;
+  border-radius: 4px;
+  font-family: "arial-black";
+  font-size: 14px;
+  color: #fff;
+}
+
+/*//////////////////////////////////////////CABECERA//////////////////////////////////////////*/
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+.cabeceraArticulo {
+  height: 25px !important;
+}
+#cabeceraArticulos {
+  margin-right: 25px;
+}
+
+/*//////////////////////////////////////////MENÚ//////////////////////////////////////////*/
+
+nav {
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li a {
+  color: #653b23;
+  display: block;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+nav li {
+  margin: 0 10px;
+}
+nav li a:hover {
+  background: #d9a23d;
+  color: white;
+}
+.seleccionado {
+  color: #653b23;
+  background: #d9a23d;
+}
+.derecha {
+  margin-left: auto;
+}
+
+li.derecha a {
+  display: inline;
+}
+
+#menu1 img {
+  width: 100px;
+  height: 100px;
+}
+#menu1 .card {
+  border: 5px solid burlywood;
+  border-radius: 15px;
+}
+#menu1 .card:hover {
+  border: 5px solid black;
+  border-radius: 15px;
+}
+#menu1 a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+/*//////////////////////////////////////////LOGIN//////////////////////////////////////////*/
+#ventanaLogin {
+  border: 5px solid burlywood;
+  border-radius: 15px;
+}
+
+/*//////////////////////////////////////////MODAL//////////////////////////////////////////*/
+.modal-body {
+  text-align: center;
+}
+.modal-body input {
+  text-align: center;
+}
+input[type="text"] {
+  text-align: center;
+}
+
+/*//////////////////////////////////////////CARRUSEL Y HISTORIA//////////////////////////////////////////*/
+.carrusel {
+  float: right;
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+  outline: 5px solid burlywood;
+  outline-offset: 10px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
+#historia {
+  padding: 15px;
+}
+#historiaTitulo {
+  margin: 45px;
+}
+
+#carrusel {
+  margin-top: 20px;
+}
+
+#resultado {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#resultado > div div {
+  height: 150px;
+}
+/*//////////////////////////////////////////CARRITO//////////////////////////////////////////*/
+#carrito {
+  display: grid;
+  min-height: 300px;
+  text-align: center;
+}
+
+#totalCarrito {
+  text-align: center;
+}
+#totalCarrito button {
+  margin: 25px 15px;
+}
+#cabeceraCarrito {
+  margin: 5px 0px;
+}
+/*//////////////////////////////////////////FOOTER//////////////////////////////////////////*/
+footer {
+  border: 5px solid burlywood;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 1em;
+}
+footer p {
+  text-align: center;
+}
+footer h2 {
+  text-align: center;
+}
+#contacto {
+  padding: 2em;
+  text-align: justify;
+}
+#contacto h3 {
+  padding: 2em;
+  text-align: justify;
+  margin-bottom: 0.5em;
+}
+p.tiempo {
+  margin-top: 1em;
+}
