@@ -36,7 +36,7 @@ export const crearNuevoUsuario = (correo, contraseña, telf,) => {
 export const iniciarSesionComprobacion = (correo, contra,) => {
   signInWithEmailAndPassword(autentificacion, correo, contra)
     .then((credenciales) => {
-      if (correo == "admin@admin.es") window.location.href = "../../back-end/back-end.html";
+      if (correo == "admin@admin.es") window.location.href = "./back-end/back-end.html";
       const actual = credenciales.user;
       cambiarseccionLogin(true);
       //Para quitar el modal;
